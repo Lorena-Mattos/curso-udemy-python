@@ -12,8 +12,8 @@ print('Altura: ', altura)
 peso = int(input('Quanto você pesa? '))
 print('Peso: ', peso)
 
-imc = peso / (altura * altura)
-print('Seu IMC É: ', imc)
+imc = peso / altura ** 2
+print('Seu IMC é: ', imc)
 
 if imc <= 18.5:
     print(nome, 'cuidado, seu IMC indica magreza')
