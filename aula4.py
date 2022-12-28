@@ -20,3 +20,5 @@ print(0.0, -1.5) # float
 print(type(12.3)) # float
 print(type(12)) # int
 print(type('Lorena')) # str
+
+print(type('Lorena'), type(1.2), type(2))
