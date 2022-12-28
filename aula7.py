@@ -12,7 +12,7 @@ print(soma_dois_mais_dois)
 int_um = bool('1')
 print(int_um, type(int_um))
 
-# print(nome_completo, soma_dois_mais_dois)
+print(nome_completo, soma_dois_mais_dois)
 
 nome = 'Luiz'
 idade = 30
