@@ -12,10 +12,10 @@ altura_metros = 1.65
 
 
 print('Nome: ', nome)
-print('\nSobrenome: ', sobrenome)
-print('\nIdade: ', idade)
+print('Sobrenome: ', sobrenome)
+print('Idade: ', idade)
 
-print('\nAno de nascimento: ', ano_nascimento)
-print('\nÉ maior de idade? ', maior_de_idade)
+print('no de nascimento: ', ano_nascimento)
+print('É maior de idade? ', maior_de_idade)
 
-print('\nAltura em metros: ', altura_metros)
+print('Altura em metros: ', altura_metros)
