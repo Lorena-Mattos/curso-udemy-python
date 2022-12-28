@@ -4,7 +4,7 @@ sobrenome = 'Mattos'
 
 idade = 29
 
-ano_nascimento = 1993
+ano_nascimento = 2022 - idade
 
 maior_de_idade = idade >= 18
 
