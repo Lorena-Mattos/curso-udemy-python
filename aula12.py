@@ -16,12 +16,12 @@ imc = peso / (altura * altura)
 print(imc)
 
 if imc <= 18.5:
-    print('Cuidado, seu imc indica magreza')
+    print('Cuidado, seu IMC indica magreza')
     
 elif imc >= 18.5:
     print('Seu IMC está normal')
 elif imc >= 24.9:
-    print('Você está com sobrepeso')
+    print('Seu IMC indica sobrepeso')
 elif imc >= 30:
     print('Cuidado, seu IMC indica obesidade')
 else:
