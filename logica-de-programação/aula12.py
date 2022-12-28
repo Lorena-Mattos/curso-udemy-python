@@ -1,6 +1,6 @@
 # Exercício para calcular IMC
 
-nome = input('Qual é seu nome? ')
+nome = input('Qual é seu nome? ').capitalize()
 print('Nome:', nome)
 
 idade = input('Qual é sua idade? ')
@@ -13,16 +13,16 @@ peso = int(input('Quanto você pesa? '))
 print('Peso: ', peso)
 
 imc = peso / (altura * altura)
-print(imc)
+print('Seu IMC É: ', imc)
 
 if imc <= 18.5:
-    print('Cuidado, seu IMC indica magreza')
+    print(nome, 'cuidado, seu IMC indica magreza')
     
 elif imc >= 18.5:
-    print('Seu IMC está normal')
+    print(nome, 'seu IMC está normal')
 elif imc >= 24.9:
-    print('Seu IMC indica sobrepeso')
+    print(nome, 'seu IMC indica sobrepeso')
 elif imc >= 30:
-    print('Cuidado, seu IMC indica obesidade')
+    print(nome, 'cuidado, seu IMC indica obesidade')
 else:
     print('Não há indicações de IMC')
