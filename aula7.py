@@ -3,14 +3,14 @@
 # O sinal de = é o operador de atribuição. Ele é usado para atribuir um valor a um nome (variável).
 # Uso: nome_variavel = expressão
 
-# nome_completo = 'Lorena Mattos Machado'
-# print(nome_completo) # Lorena Mattos Machado
+nome_completo = 'Lorena Mattos Machado'
+print(nome_completo) # Lorena Mattos Machado
 
-# soma_dois_mais_dois = 2 + 2
-# print(soma_dois_mais_dois)
+soma_dois_mais_dois = 2 + 2
+print(soma_dois_mais_dois)
 
-# int_um = bool('1')
-# print(int_um, type(int_um))
+int_um = bool('1')
+print(int_um, type(int_um))
 
 # print(nome_completo, soma_dois_mais_dois)
 
