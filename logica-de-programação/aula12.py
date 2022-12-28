@@ -4,13 +4,13 @@ nome = input('Qual é seu nome? ').capitalize()
 print('Nome:', nome)
 
 idade = input('Qual é sua idade? ')
-print('Idade: ', idade)
+print('Idade: ', idade, 'anos')
 
 altura = float(input('Qual é a sua altura? '))
 print('Altura: ', altura)
 
 peso = int(input('Quanto você pesa? '))
-print('Peso: ', peso)
+print('Peso: ', peso, 'Kg')
 
 imc = peso / altura ** 2
 print('Seu IMC é: ', imc)
