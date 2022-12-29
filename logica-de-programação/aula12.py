@@ -1,19 +1,17 @@
 # Exercício para calcular IMC
 
 nome = input('Qual é seu nome? ').capitalize()
-print('Nome:', nome)
 
 idade = input('Qual é sua idade? ')
-print('Idade: ', idade, 'anos')
 
 altura = float(input('Qual é a sua altura? '))
-print('Altura: ', altura)
 
 peso = int(input('Quanto você pesa? '))
-print('Peso: ', peso, 'Kg')
 
 imc = peso / altura ** 2
-print('Seu IMC é: ', imc)
+
+result = f'{nome} tem {altura:.2f} de altura, sua idade é {idade} anos e pesa {peso} Kg. Seu IMC é: {imc}'
+print(nome, result)
 
 if imc <= 18.5:
     print(nome, 'cuidado, seu IMC indica magreza')
@@ -26,3 +24,4 @@ elif imc >= 30:
     print(nome, 'cuidado, seu IMC indica obesidade')
 else:
     print('Não há indicações de IMC')
+
