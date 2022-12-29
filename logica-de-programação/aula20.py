@@ -3,7 +3,7 @@
 primeiro_valor = input('Digite um valor: ')
 segundo_valor = input('Digite outro valor: ')
 
-# Solucação:
+# Solução:
 
 if primeiro_valor >= segundo_valor:
     print(
