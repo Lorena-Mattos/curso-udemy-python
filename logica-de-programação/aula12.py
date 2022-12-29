@@ -4,13 +4,15 @@ nome = input('Qual é seu nome? ').capitalize()
 
 idade = input('Qual é sua idade? ')
 
-altura = float(input('Qual é a sua altura? '))
+altura = input('Qual é a sua altura? ')
+float_altura = float(altura)
 
-peso = int(input('Quanto você pesa? '))
+peso = input('Quanto você pesa? ')
+int_peso = int(peso)
 
-imc = peso / altura ** 2
+imc = int_peso / float_altura ** 2
 
-result = f'{nome} tem {altura:.2f} de altura, sua idade é {idade} anos e pesa {peso} Kg. Seu IMC é: {imc}'
+result = f'{nome} tem {float_altura:.2f} de altura, sua idade é {idade} anos e pesa {int_peso} Kg. Seu IMC é: {imc}'
 print(nome, result)
 
 if imc <= 18.5:
