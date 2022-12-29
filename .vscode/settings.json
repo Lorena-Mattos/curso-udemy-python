@@ -1,11 +1,22 @@
 {
-    "python.testing.unittestArgs": [
-        "-v",
-        "-s",
-        "./logica-de-programação",
-        "-p",
-        "*test.py"
-    ],
-    "python.testing.pytestEnabled": false,
-    "python.testing.unittestEnabled": true
+    "git.enableSmartCommit": true,
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+    "oracledevtools.download.otherFolder": "C:\\Users\\lorena.machado\\downloads",
+    "oracledevtools.bookmarkFileFolder": "C:\\Users\\lorena.machado\\Oracle\\oracle.oracledevtools",
+    "oracledevtools.connectionConfiguration.configFilesFolder": "C:\\Users\\lorena.machado\\Oracle\\network\\admin",
+    "oracledevtools.connectionConfiguration.walletFileFolder": "C:\\Users\\lorena.machado\\Oracle\\network\\admin",
+    "sqltools.connections": [],
+    "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+    "workbench.iconTheme": "material-icon-theme",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "explorer.compactFolders": false,
+    "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.executorMap": {
+        "python": "cls ; python -u",
+    },
+    "code-runner.ignoreSelection": true,
+    "python.defaultInterpreterPath": "python",
+    "files.autoSave": "afterDelay"
 }
