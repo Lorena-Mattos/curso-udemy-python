@@ -1,3 +1,8 @@
+"""
+Introdução ao for / in - estrutura de reptição para coisas finitas
+"""
+
+
 # senha_salva = '123456'
 # senha_digitada = ''
 # repeticoes = 0
