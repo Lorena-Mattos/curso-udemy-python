@@ -20,7 +20,8 @@
   },
   "code-runner.ignoreSelection": true,
   "python.defaultInterpreterPath": "python",
-  "files.autoSave": "afterDelay",
+  "files.autoSave": "afterDelay,
+  },
 
   "python.languageServer": "Pylance",
   "python.formatting.autopep8Args": [
