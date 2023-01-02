@@ -8,7 +8,7 @@ Calculadora com while
 """
 
 while True:
-    print('nummmmm')
+    input('Digite um número: ')
     #########
     sair = input('Quer sair? [s]im: ').lower().startswith('s')
 
