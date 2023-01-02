@@ -44,13 +44,13 @@ while True:
     # bloco de código da calculadora
     print('Realizando sua conta. Confira o resultado abaixo:')
     if operador == '+':
-        print(num_1_float + num_2_float)
+        print(f'{num_1_float} + {num_2_float} =', num_1_float + num_2_float)
     elif operador == '-':
-        print(num_1_float - num_2_float)
+        print(f'{num_1_float} - {num_2_float} =', num_1_float - num_2_float)
     elif operador == '/':
-        print(num_1_float / num_2_float)
+        print(f'{num_1_float} / {num_2_float} =', num_1_float / num_2_float)
     elif operador == '*':
-        print(num_1_float * num_2_float)
+        print(f'{num_1_float} * {num_2_float} =', num_1_float * num_2_float)
     else:
         print('Nunca deveria chegar aqui.')
 
