@@ -5,8 +5,11 @@ Calculadora com while
 .lower() -> retorna a mesma string enviada em sair em letras minusculas
 .startswith() -> se a string começar com o valor escolhido, ele fará algo
 .endwith() -> se a string termina com o valor escolhido, ele fará algo
+
+Importante fazer validações para se ter uma boa prática
 """
 
+# Validação
 while True:
     numero_1 = input('Digite um número: ')
     numero_2 = input('Digite outro número: ')
@@ -38,6 +41,7 @@ while True:
         print('Digite apenas um operador.')
         continue
 
+    # bloco de código da calculadora
     print('Realizando sua conta. Confira o resultado abaixo:')
     if operador == '+':
         print(num_1_float + num_2_float)
