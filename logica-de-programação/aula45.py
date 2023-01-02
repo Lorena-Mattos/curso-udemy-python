@@ -8,21 +8,21 @@ iter -> me entregue seu iterador
 
 texto = 'Luiz'  # iterável
     ##############
-iteratador = iter(texto)  # iterator
+# iteratador = iter(texto)  # iterator
     ##############
-while True:
-    try:
-        letra = next(iteratador)
-        print(letra)
-    except StopIteration:
-        break
+# while True:
+#     try:
+#         letra = next(iteratador)
+#         print(letra)
+#     except StopIteration:
+#         break
     ############
 for letra in texto:
     print(letra)
     ###########
-texto = iter('Luiz') # __iter__()
+# texto = iter('Luiz') # __iter__()
 
-print(texto.__next__())
-print(texto.__next__())
-print(texto.__next__())
-print(texto.__next__())
+# print(texto.__next__())
+# print(texto.__next__())
+# print(texto.__next__())
+# print(texto.__next__())
