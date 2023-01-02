@@ -2,7 +2,9 @@
 while - Qual letra apareceu mais vezes na frase? (Iterando strings com while)
 """
 
-frase = 'aaaooo'
+frase = 'O Python é uma linguagem de programação \
+        multiparadigma.' \
+        'Python foi criado por Guido Van Rossum'
 
 i = 0
 qtd_apareceu_mais_vezes = 0
@@ -28,3 +30,4 @@ print(
     f'"{letra_apareceu_mais_vezes}" que apareceu '
     f'{qtd_apareceu_mais_vezes}x'
 )
+
