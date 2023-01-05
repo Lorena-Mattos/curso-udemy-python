@@ -19,7 +19,10 @@
 # print(__name__)
 # fala_oi()
 
-from aula99_package import falar_oi, soma_do_modulo
+# from aula99_package import falar_oi, soma_do_modulo
 
-print(soma_do_modulo(2, 3))
-falar_oi()
+# print(soma_do_modulo(2, 3))
+# falar_oi()
+
+import aula99_package
+print(aula99_package.dobra)
