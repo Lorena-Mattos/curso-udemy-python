@@ -1,5 +1,3 @@
-# __all__ = [
-#     'variavel',
 #     'soma_do_modulo',
 #     'nova_variavel',
 # ]
