@@ -20,8 +20,3 @@ for item in lista:
     else:
         print('OUTRO')
         print(item)
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
