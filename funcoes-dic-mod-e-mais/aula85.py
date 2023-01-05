@@ -1,3 +1,5 @@
+# Vídeo sobre list comprehension:  https://youtu.be/1YbTDczvqco
+
 lista = []
 for x in range(3):
     for y in range(3):
