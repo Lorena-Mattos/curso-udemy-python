@@ -88,7 +88,7 @@ d2['l1'][1] = 999999
 print(d1)
 print(d2)
 
-# Outro exemplo de get
+# Outro exemplo upgrade
 
 p1 = {
     'nome': 'Luiz',
