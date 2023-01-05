@@ -12,4 +12,4 @@ variavel = 'Alguma coisa'
 
 
 nova_variavel = 'OK'
-fala_oi()
+#fala_oi()
