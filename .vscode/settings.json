@@ -1,4 +1,13 @@
 {
+  "editor.insertSpaces": false,
+  "editor.formatOnSave": true,
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll": true,
+  //   "source.fixAll.unusedImports": false,
+  //   "source.organizeImports": true
+  // }
+    // "editor.codeActionsOnSave": {
+    //   "source.fixAll": true,
   "python.testing.pytestEnabled": false,
   "python.testing.unittestEnabled": true,
   "git.enableSmartCommit": true,
