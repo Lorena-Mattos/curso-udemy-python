@@ -14,3 +14,5 @@ Error: iPhone est√° desligado (Smartphone)Success: Galaxy S est· ligado (Smartph
 Error: iPhone est· desligado (Smartphone)
 Error: qualquer coisa (LogFileMixin)
 Success: Que legal (LogFileMixin)
+Success: Galaxy S est· ligado (Smartphone)
+Error: iPhone est· desligado (Smartphone)
