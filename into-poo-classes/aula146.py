@@ -17,13 +17,13 @@ def levantar():
     raise exception_
 
 try:
-    levantar()
+	levantar()
 except (MeuError, ZeroDivisionError) as error:
-    print(error.__class__.__name__)
-    print(error.args)
-    print()
-    exception_ = OutroError('Vou lançar de novo')
-    exception_.__notes__ = error.__notes__.copy()
-    exception_.add_note('Mais uma nota')
-    raise exception_ from error
+	print(error.__class__.__name__)
+	print(error.args)
+	print()
+	exception_ = OutroError('Vou lançar de novo')
+	exception_.__notes__ = error.__notes__.copy()
+	exception_.add_note('Mais uma nota')
+	raise exception_ from error
 
