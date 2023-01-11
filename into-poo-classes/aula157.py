@@ -32,7 +32,7 @@ print(Direcoes(1).name, Direcoes.ESQUERDA.value)
 
 def mover(direcao: Direcoes):
     if not isinstance(direcao, Direcoes):
-        raise ValueError('Direção não encontrada')
+        raise ValueError('Direção não encontrada') # ValueError para ver se o programa está funcionando
 
     print(f'Movendo para {direcao.name} ({direcao.value})')
 
