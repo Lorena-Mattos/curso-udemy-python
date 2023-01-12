@@ -16,7 +16,7 @@ class Carta(NamedTuple):
 
 
 # Carta = namedtuple(
-#     'Carta', ['valor', 'naipe'],
+#     'Carta', ['valor', 'naipe'], 
 #     defaults=['VALOR', 'NAIPE']
 # )
 as_espadas = Carta('A')
