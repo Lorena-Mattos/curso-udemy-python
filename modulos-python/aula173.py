@@ -5,9 +5,9 @@ import os
 import shutil
 
 HOME = os.path.expanduser('~')
-DESKTOP = os.path.join(HOME, 'Desktop')
-PASTA_ORIGINAL = os.path.join(DESKTOP, 'EXEMPLO')
-NOVA_PASTA = os.path.join(DESKTOP, 'NOVA_PASTA')
+DOCUMENTS = os.path.join(HOME, 'Documents')
+PASTA_ORIGINAL = os.path.join(DOCUMENTS, 'EXEMPLO')
+NOVA_PASTA = os.path.join(DOCUMENTS, 'NOVA_PASTA')
 
 os.makedirs(NOVA_PASTA, exist_ok=True)
 
