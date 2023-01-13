@@ -2,6 +2,7 @@
   "editor.hover.enabled": true,
   "workbench.startupEditor": "none",
   "explorer.compactFolders": false,
+  "terminal.integrated.fontSize": 24,
   "editor.rulers": [80, 120],
   "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
   "workbench.iconTheme": "material-icon-theme",
@@ -10,8 +11,9 @@
   },
   "code-runner.runInTerminal": true,
   "code-runner.ignoreSelection": true,
-  "editor.fontFamily": "Consolas, 'Dank Mono', 'Source Code Pro', 'Fira Code', Menlo, 'Inconsolata', 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', 'Courier New', Courier, Monaco, monospace",
+  "editor.fontFamily": "'Fira Code', Consolas, 'Dank Mono', 'Source Code Pro', 'Fira Code', Menlo, 'Inconsolata', 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', 'Courier New', Courier, Monaco, monospace",
   "terminal.integrated.fontFamily": "",
+  "editor.fontLigatures": false,
   "[python]": {
     "editor.defaultFormatter": "ms-python.python",
     "editor.tabSize": 4,
@@ -38,6 +40,6 @@
   "python.testing.pytestEnabled": true,
   "python.analysis.diagnosticSeverityOverrides": {},
   // "python.defaultInterpreterPath": "./venv/bin/python",
-  "python.analysis.typeCheckingMode": "basic",
-  "cSpell.enabled": false
+  "python.analysis.typeCheckingMode": "strict",
+  "cSpell.enabled": true
 }
