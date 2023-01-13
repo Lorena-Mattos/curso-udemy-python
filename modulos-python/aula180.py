@@ -12,7 +12,7 @@ lista_clientes = [
     {'Nome': 'Maria Sol', 'Endereço': 'Av B, 3A'},
 ]
 
-with open(CAMINHO_CSV, 'w') as arquivo:
+with open(CAMINHO_CSV, 'w', encoding='utf8') as arquivo:
     nome_colunas = lista_clientes[0].keys()
     escritor = csv.DictWriter(
         arquivo,
