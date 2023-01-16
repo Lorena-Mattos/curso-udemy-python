@@ -28,7 +28,9 @@ class ChromeAuto:
     def clica_perfil(self):
         try:
             perfil = self.chrome.find_element_by_css_selector(
-                'body > div.position-relative.js-header-wrapper > header > div.Header-item.position-relative.mr-0.d-none.d-lg-flex > details')
+                'body > div.position-relative.js-header-wrapper > header > \
+                div.Header-item.position-relative.mr-0.d-none.d-lg-flex > \
+                    details')
             perfil.click()
         except Exception as e:
             print('Erro ao clicar no perfil:', e)
@@ -36,7 +38,9 @@ class ChromeAuto:
     def faz_logout(self):
         try:
             perfil = self.chrome.find_element_by_css_selector(
-                'body > div.position-relative.js-header-wrapper > header > div.Header-item.position-relative.mr-0.d-none.d-lg-flex > details > details-menu > form > button')
+                'body > div.position-relative.js-header-wrapper > header > \
+                    div.Header-item.position-relative.mr-0.d-none.d-lg-flex > \
+                    details > details-menu > form > button')
             perfil.click()
         except Exception as e:
             print('Erro fazer logout:', e)
