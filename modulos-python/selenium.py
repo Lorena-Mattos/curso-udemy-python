@@ -42,6 +42,6 @@ if __name__ == '__main__':
     input_element = browser.find_element(By.NAME, 'q')
     input_element.send_keys('Python')
     sleep(3)
-    file_input.send_keys.send_keys(Keys.ENTER)
+    input_element.send_keys.send_keys(Keys.ENTER)
     sleep(3)
     browser.quit()
