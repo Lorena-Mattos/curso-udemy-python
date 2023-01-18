@@ -24,8 +24,6 @@ for root, dirs, files in os.walk(caminho_dos_pdfs):
 with open(f'{caminho_dos_pdfs}/novo_arquivo.pdf', 'wb') as meu_novo_pdf:
     novo_pdf.write(meu_novo_pdf)
 
-
-
 # SEPARA PDFs
 with open('pdf/novo_arquivo.pdf', 'rb') as arquivo_pdf:
     leitor = PyPDF2.PdfFileReader(arquivo_pdf)
