@@ -44,4 +44,3 @@ for linha in range(1, 11):
     planilha2.cell(linha, 3).value = f'Joãozinho {linha} {round(uniform(10, 100), 2)}'
 
 planilha.save('nova_planilha.xlsx')
-
