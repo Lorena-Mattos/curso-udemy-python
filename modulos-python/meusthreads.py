@@ -129,5 +129,3 @@ if __name__ == '__main__':
                 break
 
     print(ingressos.estoque)
-
-
