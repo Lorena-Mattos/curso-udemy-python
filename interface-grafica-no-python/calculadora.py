@@ -26,7 +26,7 @@ class Calculadora(QMainWindow):
         self.add_btn(
             QPushButton('C'), 1, 4, 1, 1,
             lambda: self.display.setText(''),
-            'background-color: #00DBDE; background-image:linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%); font-weight: 700;'
+            'background-color: #00DBDE; background-image:linear-gradient(90deg,#00DBDE 0%, #FC00FF 100%); font-weight: 700;'
         )
 
         self.add_btn(QPushButton('4'), 2, 0, 1, 1)
@@ -38,7 +38,7 @@ class Calculadora(QMainWindow):
             lambda: self.display.setText(
                 self.display.text()[:-1]
             ),
-            'background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%); font-weight: 700;'
+            'background: #13823a; color: #fff; font-weight: 700;'
         )
 
         self.add_btn(QPushButton('1'), 3, 0, 1, 1)
