@@ -55,5 +55,5 @@ def main(main_images_folder, new_width=800):
 
 if __name__ == '__main__':
     main_images_folder = 'Users/lorena.machado/PycharmProjects\
-        /curso-udemy-python/100CANON'
+        curso-udemy-python/modulos-python/100CANON'
     main(main_images_folder, new_width=1920)
