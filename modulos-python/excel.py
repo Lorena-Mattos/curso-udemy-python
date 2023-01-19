@@ -39,8 +39,11 @@ for linha in range(1, 11):
     planilha1.cell(linha, 3).value = preco
 
 for linha in range(1, 11):
-    planilha2.cell(linha, 1).value = f'Luiz {linha} {round(uniform(10, 100), 2)}'
-    planilha2.cell(linha, 2).value = f'Otávio {linha} {round(uniform(10, 100), 2)}'
-    planilha2.cell(linha, 3).value = f'Joãozinho {linha} {round(uniform(10, 100), 2)}'
+    planilha2.cell(linha, 1).value = f'Luiz {linha}\
+        {round(uniform(10, 100), 2)}'
+    planilha2.cell(linha, 2).value = f'Otávio {linha}\
+        {round(uniform(10, 100), 2)}'
+    planilha2.cell(linha, 3).value = f'Joãozinho {linha}\
+    {round(uniform(10, 100), 2)}'
 
 planilha.save('nova_planilha.xlsx')
