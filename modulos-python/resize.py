@@ -3,7 +3,7 @@ from PIL import Image
 
 
 def main(main_images_folder, new_width=800):
-    if not os.path.isdir(main_images_folder): 
+    if not os.path.isdir(main_images_folder):
         raise NotADirectoryError(f'{main_images_folder} não existe.')
 
     for root, dirs, files in os.walk(main_images_folder):
