@@ -40,5 +40,6 @@
   "python.analysis.diagnosticSeverityOverrides": {},
   // "python.defaultInterpreterPath": "./venv/bin/python",
   "python.analysis.typeCheckingMode": "strict",
-  "cSpell.enabled": true
+  "cSpell.enabled": true,
+  "sqltools.useNodeRuntime": true
 }
